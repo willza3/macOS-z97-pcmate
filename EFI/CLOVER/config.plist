@@ -172,8 +172,6 @@
 		<false/>
 		<key>#Timeout</key>
 		<string>_NOT_SHOWN_</string>
-		<key>Arguments</key>
-		<string>-v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DisableCloverHotkeys</key>
@@ -221,13 +219,15 @@
 		<key>EnabledCores</key>
 		<integer>4</integer>
 		<key>FrequencyMHz</key>
-		<integer>4700</integer>
+		<integer>3500</integer>
 		<key>QPI</key>
 		<integer>0</integer>
 		<key>SavingMode</key>
 		<integer>255</integer>
+		<key>TDP</key>
+		<integer>88</integer>
 		<key>Type</key>
-		<string>0x0705</string>
+		<string>0x0306C0</string>
 	</dict>
 	<key>ConfigName</key>
 	<string>config</string>
@@ -341,7 +341,7 @@
 				</data>
 				<key>model</key>
 				<data>
-				SW50ZWwgSEQgR3JhcGhpYwAABzIDQw==
+				SW50ZWwgSEQgR3JhcGhpYwAAAAcyAw==
 				</data>
 				<key>subsystem-vendor-id</key>
 				<data>
@@ -590,6 +590,13 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
+		<key>Memory</key>
+		<dict>
+			<key>Channels</key>
+			<integer>1</integer>
+			<key>SlotCount</key>
+			<integer>4</integer>
+		</dict>
 		<key>Mobile</key>
 		<false/>
 		<key>OEMBoard</key>
@@ -612,14 +619,12 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>#InjectKexts</key>
-		<string>Detect</string>
+		<true/>
 		<key>BacklightLevel</key>
 		<string>0xffff</string>
 		<key>CustomUUID</key>
 		<string>0D57FD3F-8242-5A17-A4C3-C7F34970931C</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
