@@ -17,8 +17,9 @@ I own **NONE** of the files that are supplied and all rights go to their origina
 
 - FileVault
 
+- Audio
+
 ### Not Working
-- Audio (Optical & Digital)
 
 - USB 3
 
