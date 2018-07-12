@@ -29,6 +29,35 @@
 			<integer>0</integer>
 			<key>Debug</key>
 			<false/>
+			<key>DropOEM_DSM</key>
+			<dict>
+				<key>ATI</key>
+				<false/>
+				<key>Firewire</key>
+				<false/>
+				<key>HDA</key>
+				<false/>
+				<key>HDMI</key>
+				<false/>
+				<key>IDE</key>
+				<false/>
+				<key>IntelGFX</key>
+				<false/>
+				<key>LAN</key>
+				<false/>
+				<key>LPC</key>
+				<false/>
+				<key>NVidia</key>
+				<false/>
+				<key>SATA</key>
+				<false/>
+				<key>SmBUS</key>
+				<false/>
+				<key>USB</key>
+				<true/>
+				<key>WIFI</key>
+				<false/>
+			</dict>
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
@@ -341,7 +370,7 @@
 				</data>
 				<key>model</key>
 				<data>
-				SW50ZWwgSEQgR3JhcGhpYwAAAAcyAw==
+				SW50ZWwgSEQgR3JhcGhpYwAAAABzIA==
 				</data>
 				<key>subsystem-vendor-id</key>
 				<data>
