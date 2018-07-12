@@ -19,9 +19,11 @@ I own **NONE** of the files that are supplied and all rights go to their origina
 
 - Audio
 
+- USB 3
+
 ### Not Working
 
-- USB 3
+- ???
 
 ### Untested
 - WiFi
