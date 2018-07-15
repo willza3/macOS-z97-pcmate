@@ -1,7 +1,12 @@
 # High Sierra Clover Config Files for MSI Z97 PC MATE Motherboard.
 
 ## Introduction 
+
 This is my personal Clover configuration file. I own **none** of the files provided, all rights go to their original owners.
+
+<p align="center">
+ <img src="https://preview.ibb.co/d9uZj8/Screen_Shot_2018_07_15_at_09_56_04.png"/>
+</p>
 
 ## System Specifications
 - **Motherboard:** MSI Z97 PC MATE
