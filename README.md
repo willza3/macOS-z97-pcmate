@@ -58,7 +58,7 @@ This document is assuming you have the same hardware configuration as me, tested
 
 1. Mount your EFI Partition and import your config.plist into Clover Configurator
 
-2. Select the devices tab and check "USB" under the "Drop OEM_DSM" checkbox
+2. Select the ACPI tab and check "USB" under the "Drop OEM_DSM" checkbox
 
 3. Save your new configuration file and reboot into macOS
 
