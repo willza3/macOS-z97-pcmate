@@ -452,6 +452,8 @@
 		</dict>
 		<key>TextOnly</key>
 		<false/>
+		<key>Theme</key>
+		<string>random</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
