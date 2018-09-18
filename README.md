@@ -2,11 +2,12 @@
 
 ## Introduction 
 
-This is my personal Clover configuration file. I own **none** of the files provided, all rights go to their original owners.
-
 <p align="center">
  <img src="https://preview.ibb.co/d9uZj8/Screen_Shot_2018_07_15_at_09_56_04.png"/>
 </p>
+
+**Looking for Mojave?** [Config here](https://github.com/willza3/z97-pcmate-mojave/blob/master/README.md)
+This is my personal Clover configuration file. I own **none** of the files provided, all rights go to their original owners.
 
 ## System Specifications
 - **Motherboard:** MSI Z97 PC MATE
@@ -33,8 +34,6 @@ This document is assuming you have the same hardware configuration as me, tested
 - Bluetooth
 
 - Camera
-
-- Microphone
 
 ## Patches and Fixes
 
