@@ -120,7 +120,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02521303GUFF4LJA</string>
+		<string>C02PRQZFFY10J3FFF</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -150,7 +150,7 @@
 		<key>SerialNumber</key>
 		<string>C02PRQZFFY10</string>
 		<key>SmUUID</key>
-		<string>501C7A22-466B-425E-BB2B-A24762409499</string>
+		<string>C6AF0DD6-8AF2-43EB-91A9-DAE20D660C33</string>
 		<key>SystemParameters</key>
 		<string>Yes</string>
 		<key>Trust</key>
