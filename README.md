@@ -23,16 +23,14 @@ This document is assuming you have the same hardware configuration as me, tested
 
 ## Not Working
 
-- Refresh rates higher than 60hz on DisplayPort 
-  > This could just be an issue with my cable, but probably best to avoid changing the refresh rate right now.
-
+- DisplayPort 
 - ???
 
 ## Patches and Fixes
 
 ### Patching AMDController8000.kext to support R9 390
 
-**This is no longer needed as WhateverGreen.kext should take care of this now, but it's being kept here for good measure.**
+**This guide will be updated once DisplayPort is fixed, HDMI works with native kexts as long as you have WhateverGreen installed.**
 
 1. Follow steps 5-12 of [this tutorial.](https://www.tonymacx86.com/threads/guide-getting-r9-290-390-non-x-to-work-on-sierra-10-12-and-high-sierra-10-13.210574/) Ignore the first section telling you to change your BIOS settings
 
