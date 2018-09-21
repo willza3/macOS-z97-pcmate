@@ -25,8 +25,6 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>-v</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -38,10 +36,12 @@
 	<dict>
 		<key>Audio</key>
 		<dict>
+			<key>AFGLowPowerState</key>
+			<false/>
 			<key>Inject</key>
 			<integer>1</integer>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -51,6 +51,8 @@
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
+			<true/>
+			<key>Inject</key>
 			<true/>
 		</dict>
 	</dict>
@@ -76,16 +78,22 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>2560x1440</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
 		<key>FBName</key>
-		<string>Radeon</string>
+		<string>Baladi</string>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
 			<true/>
 		</dict>
+		<key>LoadVBios</key>
+		<false/>
+		<key>RadeonDeInit</key>
+		<true/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -95,6 +103,117 @@
 		<true/>
 		<key>KernelPm</key>
 		<true/>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>DisplayPort (1) Fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AAQAAAQDAAAAAQMAAAAAABIEAwMAAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AMD8000Controller</string>
+				<key>Replace</key>
+				<data>
+				AAQAAAQDAAAAAQMAAAAAABIEAgEAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>DisplayPort (2) Fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AAQAAAQDAAAAAQEAAAAAABECAQEAAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AMD8000Controller</string>
+				<key>Replace</key>
+				<data>
+				AAQAAAQGAAAAAQEAAAAAABAABAUAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>DisplayPort (3) Fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AAQAAAQDAAAAAQIAAAAAACEDAgIAAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AMD8000Controller</string>
+				<key>Replace</key>
+				<data>
+				AAQAAAABAAAAAQIAAAAAACABBgYAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HDMI Fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AAQAAAQDAAAAAQQAAAAAACIFBAQAAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AMD8000Controller</string>
+				<key>Replace</key>
+				<data>
+				AAAIAAQCAAAAAQQAAAAAACIFAwMAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>DVI-D Fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AAQAAAQDAAAAAQUAAAAAABAABQUAAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AMD8000Controller</string>
+				<key>Replace</key>
+				<data>
+				AAIAAAQCAAAAAQUAAAAAABECAQQAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Connector Patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AAQAAAQDAAAAAQYAAAAAACABBgYAAAAA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AMD8000Controller</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				</data>
+			</dict>
+		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
