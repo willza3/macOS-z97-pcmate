@@ -1,7 +1,7 @@
 # Mojave Clover Config Files for MSI Z97 PC MATE Motherboard.
 
 <p align="center">
- <img src="https://preview.ibb.co/jrYPu9/Screenshot_2018_09_26_at_01_10_56.png"/>
+ <img src="https://preview.ibb.co/jmdrtp/Screenshot-2018-10-12-at-02-11-21.png"/>
 </p>
 
 Tested with macOS Mojave (10.14.0) but should work just fine with High Sierra (10.13.x)
@@ -18,7 +18,7 @@ Tested with macOS Mojave (10.14.0) but should work just fine with High Sierra (1
 
 ## Not Working
 
-- ???
+- Stability issues when using DisplayPort
 
 ## Fix Blurry Font Rendering (Mojave)
 macOS Mojave no longer supports subpixel antialiasing, making text on displays that are non "retina" look blurry. Enter in terminal to fix.
