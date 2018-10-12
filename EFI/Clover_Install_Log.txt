@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Tue Sep 25 20:58:01 BST 2018
-Installer version: v2.4k r4674 EFI bootloader
+Clover EFI installer log - Fri Oct 12 01:52:43 BST 2018
+Installer version: v2.4k r4700 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -9,15 +9,14 @@ Installer version: v2.4k r4674 EFI bootloader
 
 /dev/disk1 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *120.0 GB   disk1
-   1:                        EFI EFI                     209.7 MB   disk1s1
-   2:                 Apple_APFS Container disk5         119.8 GB   disk1s2
+   0:     FDisk_partition_scheme                        *120.0 GB   disk1
+   1:                  Apple_HFS Untitled                120.0 GB   disk1s1
 
 /dev/disk2 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *120.0 GB   disk2
    1:                        EFI EFI                     209.7 MB   disk2s1
-   2:                 Apple_APFS Container disk4         119.7 GB   disk2s2
+   2:                 Apple_APFS Container disk4         119.8 GB   disk2s2
 
 /dev/disk3 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -29,28 +28,18 @@ Installer version: v2.4k r4674 EFI bootloader
 
 /dev/disk4 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +119.7 GB   disk4
+   0:      APFS Container Scheme -                      +119.8 GB   disk4
                                  Physical Store disk2s2
-   1:                APFS Volume Preboot                 86.1 MB    disk4s2
-   2:                APFS Volume Recovery                1.0 GB     disk4s3
-   3:                APFS Volume VM                      2.1 GB     disk4s4
+   1:                APFS Volume macOS                   51.2 GB    disk4s1
+   2:                APFS Volume Preboot                 44.9 MB    disk4s2
+   3:                APFS Volume Recovery                512.5 MB   disk4s3
+   4:                APFS Volume VM                      3.2 GB     disk4s4
 
-/dev/disk5 (synthesized):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +119.8 GB   disk5
-                                 Physical Store disk1s2
-   1:                APFS Volume macOS                   12.9 GB    disk5s1
-   2:                APFS Volume Preboot                 44.9 MB    disk5s2
-   3:                APFS Volume Recovery                512.5 MB   disk5s3
-   4:                APFS Volume VM                      2.1 GB     disk5s4
+Target volume /Volumes/macOS on disk4 is APFS on physical store disk2s2
+======================================================
+Backing up EFI files
 
-/dev/disk6 (external, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *15.4 GB    disk6
-   1:                        EFI EFI                     209.7 MB   disk6s1
-   2:                  Apple_HFS Install macOS Mojave... 15.0 GB    disk6s2
-
-Target volume /Volumes/macOS on disk5 is APFS on physical store disk1s2
+Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r4700/2018-10-12-01h52/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
@@ -59,8 +48,6 @@ Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
 
 Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
 
-Theme 'metal' (defined in config.plist) not found !
-Using default theme 'random'
 ======================================================
 =========== Clover EFI Installation Finish ===========
 ======================================================
