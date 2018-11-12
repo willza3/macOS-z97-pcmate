@@ -4,6 +4,8 @@
  <img src="https://ibin.co/4In2flcxe4x8.jpg"/>
 </p>
 
+⚠️ **This configuration is no longer maintained, but *should* continue to work for the forseeable future.**
+
 ## System Specifications
 Tested with macOS Mojave (10.14.x) but should work just fine with High Sierra (10.13.x)
 
@@ -30,8 +32,6 @@ Starting with Mojave, subpixel anti-aliasing is no longer supported on macOS, ca
 
 `defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO`
 
-
-
 ## Credits
 
 - [**Apple Inc.**](https://www.github.com/apple "Apple's GitHub Repo") for macOS
@@ -42,5 +42,7 @@ Starting with Mojave, subpixel anti-aliasing is no longer supported on macOS, ca
 - [**RehabMan**](https://www.github.com/rehabman "RehabMan's GitHub Repo") for RealtekRTL8111.kext
 - [**Timo**](https://www.github.com/timocapa "Timo's GitHub Repo") for putting up with me
 - [**vit9696**](https://www.github.com/vit9696 "vit9696's GitHub Repo") for Shiki.kext and WhateverGreen.kext
+
+*Last updated 12 November, 2018.*
 
 ❤️
