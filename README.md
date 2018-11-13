@@ -6,6 +6,8 @@
 
 ⚠️ **This configuration is no longer maintained, but *should* continue to work for the forseeable future.**
 
+➡️ **This project has now moved to the [ASUS PRIME Z270-A Motherboard](https://github.com/willza3/primez270a-mojave).**
+
 ## System Specifications
 Tested with macOS Mojave (10.14.x) but should work just fine with High Sierra (10.13.x)
 
@@ -16,7 +18,7 @@ Tested with macOS Mojave (10.14.x) but should work just fine with High Sierra (1
 - **CPU:** Intel i5-4690K @ 3.5GHz
 
 - **GPU:** ASUS STRIX AMD Radeon R9 390
-  > Disable the **connectors kext patch** if you're having issues with graphics. The connectors are patched for ASUS STRIX cards and may not work properly with other brands.
+  > Disable the **connectors kext patch** if you're having issues with graphics. The connectors are patched for ASUS STRIX cards and may not work correctly with other brands.
 
 ## Known Issues
 
