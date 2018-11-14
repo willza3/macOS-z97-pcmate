@@ -6,6 +6,8 @@
 
 ⚠️ **This configuration is no longer maintained, but *should* continue to work for the forseeable future.**
 
+⚠️ **The included version of Clover will be out of date, make sure to update to the latest version.**
+
 ➡️ **This project has now moved to the [ASUS PRIME Z270-A Motherboard](https://github.com/willza3/primez270a-mojave).**
 
 ## System Specifications
