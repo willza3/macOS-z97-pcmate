@@ -4,14 +4,14 @@
  <img src="https://ibin.co/4In2flcxe4x8.jpg"/>
 </p>
 
-⚠️ **This configuration is no longer maintained, but *should* continue to work for the forseeable future.**
+⚠️ **This configuration is no longer maintained as I no longer own the hardware.**
 
-⚠️ **The included version of Clover will be out of date, make sure to update to the latest version.**
+⚠️ **This configuration may not be compatible with macOS Catalina and above.**
 
-➡️ **This project has now moved to the [ASUS PRIME Z270-A Motherboard](https://github.com/willza3/primez270a-mojave).**
+⚠️ **The included kexts and Clover bootloader *will* be outdated. Make sure to update to the latest available version.**
 
 ## System Specifications
-Tested with macOS Mojave (10.14.x) but should work just fine with High Sierra (10.13.x)
+Tested with macOS Mojave
 
 - **Motherboard:** MSI Z97 PC MATE
   * Networking: RealtekRTL8111
@@ -47,6 +47,6 @@ Starting with Mojave, subpixel anti-aliasing is no longer supported on macOS, ca
 - [**Timo**](https://www.github.com/timocapa "Timo's GitHub Repo") for putting up with me
 - [**vit9696**](https://www.github.com/vit9696 "vit9696's GitHub Repo") for Shiki.kext and WhateverGreen.kext
 
-*Last updated 12 November, 2018.*
+*Last updated 10 June, 2019.*
 
 ❤️
